@@ -1,6 +1,13 @@
 # clean-ableton-unlicensed-devices
 
-This tool extracts and lists all Simpler/Sampler-related device blocks from an Ableton Live `.als` project file.
+This tool extracts and lists all Simpler/Sampler-related device blocks from an Ableton Live `.als` project file. It can be extended easily to other plugins or devices that cause Ableton to throw licensing errors.
+
+Heavily inspired by:
+Abletool -> https://ableton-utility.vercel.app/
+
+And relies on:
+dawtool -> https://github.com/offlinemark/dawtool
+
 
 ## What it does
 - Parses an Ableton `.als` file
